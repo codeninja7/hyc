@@ -1,7 +1,6 @@
 .htaccess
-wp-*.php
 xmlrpc.php
-wp-admin/
+wp-config.php
 wp-includes/
 wp-content/uploads/
 wp-content/blogs.dir/

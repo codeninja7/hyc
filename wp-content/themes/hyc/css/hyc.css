@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'PTSans';
+    src: url('fonts/PTC55F-webfont.eot');
+    src: url('fonts/PTC55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTC55F-webfont.woff') format('woff'),
+         url('fonts/PTC55F-webfont.ttf') format('truetype'),
+         url('fonts/PTC55F-webfont.svg#PTSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#Bebas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Downcome';
+    src: url('fonts/downcome-webfont.eot');
+    src: url('fonts/downcome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/downcome-webfont.woff') format('woff'),
+         url('fonts/downcome-webfont.ttf') format('truetype'),
+         url('fonts/downcome-webfont.svg#Downcome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lane';
+    src: url('fonts/LANENAR_-webfont.eot');
+    src: url('fonts/LANENAR_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LANENAR_-webfont.woff') format('woff'),
+         url('fonts/LANENAR_-webfont.ttf') format('truetype'),
+         url('fonts/LANENAR_-webfont.svg#Lane') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {font-family:Myriad Pro, "Helvetica Neue", helvetica;font-size:14px}
+.archive {margin:0;}
+a, a:visited {color:#FF9334}
+#content h1,
+#content .excerpt .title,
+#content .excerpt .more,
+#sidebar .widget h3,
+#comments h3,
+#top-navigation .menu-top-navigation-container li {font-family:Bebas;font-weight:normal;}
+
+#header {background-color:#2d2a29;height:120px;position:relative}
+#header .wrap {width:960px;height:120px;margin:0 50%;position:absolute;top:0;left:-480px}
+#header #logo-herald-youth-center{font-family:Bebas;font-size:40px;line-height:40px;background:url(../img/hyc-head-logo.png) no-repeat scroll 0 1px transparent;padding-left:45px;top:40px;position:relative}
+#header #logo-herald-youth-center:hover {text-decoration:none}
+#header #logo-herald-youth-center em {font-style:normal;color:#FFF}
+#header #logo-herald-youth-center em.youth {color:#CCC}
+#header #logo-herald-youth-center em.center {color:#999}
+.home #top-navigation {border:0}
+#top-navigation {width:100%;height:50px;border-bottom:1px solid #CCC;background-color:#ECECEC}
+#top-navigation .menu-top-navigation-container {width:960px;height:50px;margin:0 auto;}
+#top-navigation .menu-top-navigation-container ul {width:1050px;margin:0;}
+#top-navigation .menu-top-navigation-container li {font-size:22px;line-height:50px;background:none;height:50px;margin:0;padding:0 40px 0 0;display:block;list-style:none;float:left;position:relative}
+#top-navigation .menu-top-navigation-container a {color:#333}
+#top-navigation .menu-top-navigation-container a:hover {text-decoration:none}
+#top-navigation .menu-top-navigation-container .sub-menu {background-color:#FFF;width:210px;padding:0 10px 5px;top:50px;left:-10px;display:none;position:absolute;border-width:0 1px 1px;border-style:solid;border-color:#CCC;background-color:#ECECEC;z-index:10;}
+#top-navigation .menu-top-navigation-container li:hover .sub-menu {display:block}
+#top-navigation .menu-top-navigation-container .sub-menu li {line-height:28px;height:28px;padding-right:0;float:none}
+#top-navigation .menu-top-navigation-container .sub-menu li a {font-size:20px;}
+#footer {font-size:11px;color:#000;background:#FFF;width:960px;margin:0 auto;padding:15px 0 100px;border-top:#e6e6e6 solid 1px;}
+#footer .hyc-footer {float:left;}
+#footer .ministry {float:right;}
+#footer .ministry a {color:#ff9334}
+#footer .ministry a:hover {color:#e46e07;text-decoration:none;}
+.home #main {margin:0}
+.home .wrapper {width:100%}
+.home #homepage-dl-wrap {background:#000;width:100%;height:286px;position:relative;}
+#homepage-dl {width:960px;height:286px;margin:0 50%;left:-480px;position:absolute}
+#homepage-dl .post {font-size:13px;line-height:16px;width:160px;height:286px;overflow:hidden;float:left;position:relative;}
+#homepage-dl .post-content {width:140px;height:100px;padding:10px;bottom:0px;position:absolute;background:url(../img/underlay.png) repeat 0 0 scroll transparent;}
+#homepage-dl .post a {color:#FFF;width:140px;height:100px;display:block;overflow:hidden;}
+#homepage-dl .post a:hover {text-decoration:none}
+#homepage-dl .post a .title {font-family:Bebas,arial;font-size:22px;line-height:22px;padding:0 0 7px;display:block;}
+#homepage-sections {width:960px;height:160px;margin:0 auto;}
+#homepage-sections #sidebar {width:1000px;background:none;margin:10px auto 0;padding:0;}
+#homepage-sections #sidebar .widget {width:223px;margin-right:12px;padding:2px;border:2px solid #ECECEC;float:left;overflow:visible}
+#homepage-sections #sidebar .widgetInner {background-color:#ECECEC}
+#homepage-sections #sidebar .widgetInner ul{margin:0;padding:10px 0}
+#homepage-sections #sidebar h3 {font-size:18px;line-height:16px;color:#FFF;background-color:#FF9334;padding:5px 5px 5px 20px;position:relative;left:-12px;top:10px;}
+#homepage-sections #sidebar h3 .wrap {width:0;height:0;border:4px solid #DD0000;border-color:#DD7700 #DD7700 #FFFFFF #FFFFFF;display:block;position:absolute;left:0;bottom:-7px}
+#homepage-sections #sidebar h3 .tail {width:0;height:0;border-style:solid;border-width:13px 7px 13px 0;border-color:#FF9334 #ECECEC #FF9334;display:block;position:absolute;right:0;top:0}
+#homepage-sections #sidebar li {background:url("../img/arrow-bullet.gif") no-repeat scroll left 2px transparent;margin:0 10px;padding:0 0 0 10px}
+#homepage-sections #sidebar li a {font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:13px;color:#8B8B8B;}
+#homepage-sections #sidebar li a:hover {text-decoration:none;color:#ff9334}
+
+.full .full-content {width:630px;}
+#content {width:630px;margin-right:30px;float:left}
+#content h1 {font-size:40px;line-height:37px;color:#333;text-decoration:none;padding:0 0 5px;display:block}
+#content .by-line{font:13px/15px Arial, sans-serif;color:#333;font-weight:normal;margin-bottom:20px;padding:0 0 14px;border-bottom:1px solid #000;display:block}
+#content .by-line a{text-decoration:none}
+#content .full-content {width:630px;overflow:visible}
+#content .entry-content a{text-decoration:none}
+#content .entry-content {margin-bottom:30px;padding-top:15px;}
+#content .entry-content img{margin:0 20px 20px 0;}
+#content .entry-content img.alignright {margin:0 0 20px 20px;}
+#content .entry-content img.alignright {margin:0 auto 20px;}
+#content .entry-content p {font-size:14px;line-height:17px;}
+#content .entry-content strong {font-weight:bold}
+#content .entry-content h2{font-weight:bold}
+#content .filed {font-size:12px;font-weight:bold}
+#content .filed a {text-decoration:none}
+#content .entry-content .wp-caption img{margin-bottom:2px;}
+#content .entry-content .wp-caption-text {font-size:9px;text-align:left;padding-bottom:20px;}
+#content .wp-caption{background:none;margin:0;padding:0;border:0}
+
+#content.category h1 {font-size:30px;line-height:30px;margin:0 0 50px;padding:0 0 9px 0;border-bottom:2px solid #000}
+#content .excerpt {margin-bottom:60px;}
+#content .excerpt .title{font-size:40px;line-height:37px;color:#000;text-decoration:none;padding:0 0 5px;display:block}
+#content .excerpt .title:hover{color:#ff9334}
+#content .excerpt img {margin:0 20px 0 0}
+#content .excerpt a{color:#ff9334;text-decoration:none}
+#content .excerpt p {font-size:14px;line-height:17px;margin-bottom:20px;}
+#content .excerpt .more{font-size:18px;color:#ff9334;cursor:pointer}
+#content .excerpt .more em{display:inline-block;width:0;height:0;border:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid #ff9334;position:relative;top:-1px;left:3px}
+
+.xauthor #content h1 {font-size:60px;line-height:60px;height:60px;margin:0 0 30px;}
+#content .author-wrapper {width:622px;margin-bottom:30px;padding:2px;border:2px solid #ECECEC;clear:both}
+#content .author-content {background:#ECECEC;padding:20px;}
+#content .author-content h1 {font-size:50px;line-height:45px;color:#FFF;background-color:#FF9334;width:590px;height:40px;margin-bottom:34px;padding:10px 0 10px 40px;border:0;position:relative;left:-42px;top:10px;}
+#content .author-content h1 a,
+#content .author-content h1 a:hover {color:#FFF;text-decoration:none;}
+#content .author-content h1 .wrap {width:0;height:0;border:9px solid #DD0000;border-color:#DD7700 #DD7700 #FFFFFF #FFFFFF;display:block;position:absolute;left:0;bottom:-18px}
+#content .author-content h1 .tail {width:0;height:0;border-style:solid;border-width:30px 15px 30px 0;border-color:#FF9334 #ECECEC #FF9334;display:block;position:absolute;right:0;top:0}
+#content .author-bio img {margin:0 20px 20px 0;float:left}
+#content .author-bio p {margin-bottom:10px;}
+#content .staff-wrapper .author-content {min-height:200px}
+#content .staff-wrapper .author-content h1 {font-size:40px;margin-bottom:20px;padding:0 0 0 40px;top:0;}
+#content .staff-wrapper .author-content .tail {border-width:20px 10px 20px 0}
+#content .staff-wrapper .staff-title {font-weight:bold;}
+
+#comments h3 {font-size:30px;line-height:30px;margin:0 0 20px;padding:30px 0 9px 0;border-bottom:2px solid #000}
+
+#sidebar {background:none;width:300px;margin:0;padding:0;float:left}
+#sidebar .widget_facebook_like_box_widget {margin-bottom:25px;}
+#sidebar .widget_facebook_like_box_widget .fb-wrapper{overflow:hidden}
+#sidebar .widget_facebook_like_box_widget iframe{position:relative;top:-1px;left:-1px;}
+#sidebar .widget_facebook_like_box_widget hr{height:1px;background-color:#FFF;margin:0;border:0;position:relative;top:-2px;left:0;z-index:1}
+
+
+#sidebar .widget {width:292px;padding:2px;border:2px solid #ECECEC;float:left;overflow:visible}
+#sidebar .widget .widgetInner {background-color:#ECECEC}
+#sidebar .widget .widgetInner ul{margin:0;padding:10px 0}
+#sidebar .widget h3 {font-size:32px;line-height:36px;color:#FFF;background-color:#FF9334;padding:5px 5px 5px 20px;position:relative;left:-12px;top:10px;}
+#sidebar .widget h3 a,
+#sidebar .widget h3 a:hover {color:#FFF}
+#sidebar .widget h3 .wrap {width:0;height:0;border:4px solid #DD0000;border-color:#DD7700 #DD7700 #FFFFFF #FFFFFF;display:block;position:absolute;left:0;bottom:-7px}
+#sidebar .widget h3 .tail {width:0;height:0;border-style:solid;border-width:23px 12px 23px 0;border-color:#FF9334 #ECECEC #FF9334;display:block;position:absolute;right:0;top:0}
+#sidebar .widget_list_category_loop li {background:url("../img/arrow-bullet.gif") no-repeat scroll left 2px transparent;margin:0 10px;padding:0 0 0 10px}
+#sidebar .widget_list_category_loop li a {font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size:13px;color:#8B8B8B;}
+#sidebar .widget_list_category_loop li a:hover {text-decoration:none;color:#ff9334}
+

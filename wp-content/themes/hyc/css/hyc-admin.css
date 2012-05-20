@@ -1,0 +1,8 @@
+#events-meta-data th {width:150px;vertical-align:middle}
+#events-meta-data th,
+#events-meta-data td {padding:0 10px;}
+#events-meta-data-start-date,
+#events-meta-data-end-date {text-align:center;width:136px}
+#events-meta-data #events-meta-data-start-time,
+#events-meta-data #events-meta-data-end-time {text-align:center;width:62px}
+#events-meta-data input {width:136px}
