@@ -41,9 +41,9 @@ function type_users_excerpt($html,$curauth){
 }
 add_filter( 'wordpress_users_get_user_listing', 'type_users_excerpt', 10, 2 );
 
-add_filter( 'pre_site_transient_update_core', function(){ return null; }); // screening core update
-add_filter( 'pre_site_transient_update_plugins', function(){ return null; }); // screening plugin update
-add_filter( 'pre_site_transient_update_themes', function(){ return null; }); // screening theme update
+add_filter( 'pre_site_transient_update_core', create_function( '$a', "return null;" )); // screening core update
+add_filter( 'pre_site_transient_update_plugins', create_function( '$a', "return null;" )); // screening plugin update
+add_filter( 'pre_site_transient_update_themes', create_function( '$a', "return null;" )); // screening theme update
 remove_action('admin_init', '_maybe_update_core'); // forbid wp_version_check();
 remove_action('admin_init', '_maybe_update_plugins'); // forbid wp_update_plugins();
 remove_action('admin_init', '_maybe_update_themes'); // forbid wp_update_themes();
