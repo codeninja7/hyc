@@ -269,4 +269,3 @@ include_once(CFCT_PATH.'carrington-core/carrington.php');
 
 register_nav_menu( 'top-nav', 'Top Navigation' );
 
-?>

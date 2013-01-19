@@ -10,3 +10,4 @@ wp-content/cache/*
 wp-content/cache/supercache/*
 readme.html
 license.txt
+sass_stdlib.xml
