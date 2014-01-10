@@ -1,5 +1,5 @@
 <?php
-error_log('here');
+
 /**
  * TimThumb by Ben Gillbanks and Mark Maunder
  * Based on work done by Tim McDaniels and Darren Hoyt
